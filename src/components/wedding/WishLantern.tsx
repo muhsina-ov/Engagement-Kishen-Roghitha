@@ -38,7 +38,7 @@ export function WishLantern() {
       };
     });
     setReleased((current) => [...current.slice(-44), ...batch]);
-    setMessage("The sky is glowing for Jai Kishen and Roghitha ✨");
+    setMessage("The sky is glowing for JAI KISHEN and ROGHITHA ✨");
     window.setTimeout(() => {
       const batchIds = new Set(batch.map((entry) => entry.id));
       setReleased((current) => current.filter((entry) => !batchIds.has(entry.id)));

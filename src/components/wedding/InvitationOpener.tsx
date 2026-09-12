@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { couple } from "@/lib/wedding";
 const poster = "https://media.invitestory.in/seashell-vows/src/assets/opener-frames/lantern-reveal-first.png";
 
 const SESSION_KEY = "kishen-roghitha-engagement-opened";
@@ -54,7 +55,7 @@ export function InvitationOpener() {
     <div
       className={`invitation-opener fixed inset-0 z-[100] bg-background ${closing ? "is-closing" : ""}`}
       role="dialog"
-      aria-label="Open Jai Kishen and Roghitha's engagement invitation"
+      aria-label="Open JAI KISHEN and ROGHITHA's engagement invitation"
     >
       <video
         ref={videoRef}
@@ -75,7 +76,9 @@ export function InvitationOpener() {
           <span className="text-[0.62rem] uppercase tracking-[0.32em] text-[#e8c88f] mb-1 font-sans">
             Engagement Invitation
           </span>
-          <span className="script text-2xl md:text-3xl text-[#f4d8a1]">Jai Kishen & Roghitha</span>
+          <span className="font-display text-2xl md:text-3xl text-[#f4d8a1] uppercase tracking-wide">
+            {couple.bride} <span className="script text-2xl md:text-3xl normal-case">&</span> {couple.groom}
+          </span>
           <span className="mt-4 inline-flex items-center gap-2 border-b border-white/60 pb-1 text-[0.68rem] uppercase tracking-[0.24em] transition-transform hover:scale-105">
             Tap to open
           </span>

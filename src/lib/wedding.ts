@@ -1,6 +1,6 @@
 export const couple = {
-  bride: "Jai Kishen",
-  groom: "Roghitha",
+  bride: "JAI KISHEN",
+  groom: "ROGHITHA",
   tagline: "Two hearts, one eternal promise",
   dateLabel: "Thursday, 17 September 2026",
   timeLabel: "10:30 AM – 11:30 AM",
@@ -50,7 +50,7 @@ export function buildICS() {
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Jai Kishen & Roghitha//Engagement//EN",
+    "PRODID:-//JAI KISHEN & ROGHITHA//Engagement//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
   ];

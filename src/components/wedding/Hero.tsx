@@ -63,11 +63,11 @@ export function Hero() {
           </p>
 
           <h1
-            className="mt-2 font-display text-[2.55rem] sm:text-[3.25rem] leading-[1.06] text-foreground animate-ink font-normal"
+            className="mt-2 font-display text-[2.55rem] sm:text-[3.25rem] leading-[1.06] text-foreground animate-ink font-normal uppercase tracking-wide"
             style={{ animationDelay: "0.6s" }}
           >
             <span>{couple.bride}</span>
-            <span className="script mx-2 block text-2xl sm:text-3xl text-primary font-normal">&</span>
+            <span className="script mx-2 block text-2xl sm:text-3xl text-primary font-normal normal-case">&</span>
             <span>{couple.groom}</span>
           </h1>
 

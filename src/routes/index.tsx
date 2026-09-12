@@ -17,18 +17,18 @@ const floralDivider = "https://media.invitestory.in/seashell-vows/src/assets/bou
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jai Kishen & Roghitha | Engagement Invitation" },
+      { title: "JAI KISHEN & ROGHITHA | Engagement Invitation" },
       {
         name: "description",
         content:
-          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
+          "Celebrate the engagement of JAI KISHEN & ROGHITHA on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
       },
-      { property: "og:site_name", content: "Jai Kishen & Roghitha Engagement" },
-      { property: "og:title", content: "Jai Kishen & Roghitha | Engagement Invitation" },
+      { property: "og:site_name", content: "JAI KISHEN & ROGHITHA Engagement" },
+      { property: "og:title", content: "JAI KISHEN & ROGHITHA | Engagement Invitation" },
       {
         property: "og:description",
         content:
-          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
+          "Celebrate the engagement of JAI KISHEN & ROGHITHA on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://engagement-kishen-roghitha.invitingyou.top/" },
@@ -45,14 +45,14 @@ export const Route = createFileRoute("/")({
       { property: "og:image:height", content: "630" },
       {
         property: "og:image:alt",
-        content: "Jai Kishen & Roghitha Engagement Invitation",
+        content: "JAI KISHEN & ROGHITHA Engagement Invitation",
       },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jai Kishen & Roghitha | Engagement Invitation" },
+      { name: "twitter:title", content: "JAI KISHEN & ROGHITHA | Engagement Invitation" },
       {
         name: "twitter:description",
         content:
-          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai.",
+          "Celebrate the engagement of JAI KISHEN & ROGHITHA on 17 September 2026 in Chennai.",
       },
       {
         name: "twitter:image",
@@ -108,8 +108,8 @@ function Invitation() {
               With the cherished blessings of our parents, elders, and families, we joyfully invite you
               to grace the auspicious engagement ceremony of
             </p>
-            <p className="font-display text-2xl sm:text-3xl text-primary font-semibold tracking-wide">
-              {couple.bride} <span className="script text-2xl text-foreground/80">&</span> {couple.groom}
+            <p className="font-display text-2xl sm:text-3xl text-primary font-semibold tracking-wide uppercase">
+              {couple.bride} <span className="script text-2xl text-foreground/80 normal-case">&</span> {couple.groom}
             </p>
             <p className="text-sm leading-relaxed text-muted-foreground">
               As we exchange rings and take our first steps toward a lifetime of togetherness, your presence and heartfelt blessings will make our special day complete.
@@ -120,7 +120,7 @@ function Invitation() {
             <div className="relative rounded-xl overflow-hidden card-soft max-w-sm w-full p-2 border border-primary/30 shadow-md">
               <img
                 src="/og-image.jpg"
-                alt="Jai Kishen and Roghitha Engagement Ceremony Rings"
+                alt="JAI KISHEN and ROGHITHA Engagement Ceremony Rings"
                 loading="lazy"
                 width={1200}
                 height={630}

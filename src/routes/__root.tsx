@@ -73,18 +73,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
-      { title: "Jai Kishen & Roghitha | Engagement Invitation" },
+      { title: "JAI KISHEN & ROGHITHA | Engagement Invitation" },
       {
         name: "description",
         content:
-          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
+          "Celebrate the engagement of JAI KISHEN & ROGHITHA on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
       },
-      { property: "og:site_name", content: "Jai Kishen & Roghitha Engagement" },
-      { property: "og:title", content: "Jai Kishen & Roghitha | Engagement Invitation" },
+      { property: "og:site_name", content: "JAI KISHEN & ROGHITHA Engagement" },
+      { property: "og:title", content: "JAI KISHEN & ROGHITHA | Engagement Invitation" },
       {
         property: "og:description",
         content:
-          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
+          "Celebrate the engagement of JAI KISHEN & ROGHITHA on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://engagement-kishen-roghitha.invitingyou.top/" },
@@ -101,14 +101,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image:height", content: "630" },
       {
         property: "og:image:alt",
-        content: "Jai Kishen & Roghitha Engagement Invitation",
+        content: "JAI KISHEN & ROGHITHA Engagement Invitation",
       },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jai Kishen & Roghitha | Engagement Invitation" },
+      { name: "twitter:title", content: "JAI KISHEN & ROGHITHA | Engagement Invitation" },
       {
         name: "twitter:description",
         content:
-          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai.",
+          "Celebrate the engagement of JAI KISHEN & ROGHITHA on 17 September 2026 in Chennai.",
       },
       {
         name: "twitter:image",
