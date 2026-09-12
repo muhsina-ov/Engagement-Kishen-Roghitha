@@ -77,31 +77,47 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Cordially invite you to celebrate the engagement ceremony of Jai Kishen & Roghitha on Thursday, 17 September 2026, 10:30 AM at Mogappair West, Chennai.",
+          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
       },
+      { property: "og:site_name", content: "Jai Kishen & Roghitha Engagement" },
       { property: "og:title", content: "Jai Kishen & Roghitha | Engagement Invitation" },
       {
         property: "og:description",
         content:
-          "Cordially invite you to celebrate the engagement ceremony of Jai Kishen & Roghitha on Thursday, 17 September 2026 in Mogappair West, Chennai.",
+          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai. Event details, venue directions and calendar invite.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://kishen-roghitha.invitestory.in/" },
-      { property: "og:image", content: "https://kishen-roghitha.invitestory.in/og-image.jpg" },
+      { property: "og:url", content: "https://engagement-kishen-roghitha.invitingyou.top/" },
+      {
+        property: "og:image",
+        content: "https://engagement-kishen-roghitha.invitingyou.top/og-image.jpg",
+      },
+      {
+        property: "og:image:secure_url",
+        content: "https://engagement-kishen-roghitha.invitingyou.top/og-image.jpg",
+      },
+      { property: "og:image:type", content: "image/jpeg" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
+      {
+        property: "og:image:alt",
+        content: "Jai Kishen & Roghitha Engagement Invitation",
+      },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Jai Kishen & Roghitha | Engagement Invitation" },
       {
         name: "twitter:description",
         content:
-          "Celebrate the engagement ceremony of Jai Kishen & Roghitha on 17 September 2026 at Chennai.",
+          "Celebrate the engagement of Jai Kishen & Roghitha on 17 September 2026 in Chennai.",
       },
-      { name: "twitter:image", content: "https://kishen-roghitha.invitestory.in/og-image.jpg" },
+      {
+        name: "twitter:image",
+        content: "https://engagement-kishen-roghitha.invitingyou.top/og-image.jpg",
+      },
       { name: "theme-color", content: "#fdf8ee" },
     ],
     links: [
-      { rel: "canonical", href: "https://kishen-roghitha.invitestory.in/" },
+      { rel: "canonical", href: "https://engagement-kishen-roghitha.invitingyou.top/" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
