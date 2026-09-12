@@ -18,12 +18,12 @@ export type WeddingEvent = {
 
 export const events: WeddingEvent[] = [
   {
-    name: "Engagement Muhurtham",
+    name: "Engagement Ceremony",
     glyph: "💍",
     date: "17 Sep 2026",
     time: "10:30 AM – 11:30 AM",
     venue: "Door no: 25, B Block, 2nd floor, Annal Apartment, Mogappair West",
-    note: "The sacred muhurtham and auspicious exchange of rings.",
+    note: "Auspicious exchange of rings and celebration of love.",
   },
   {
     name: "Festive Lunch & Celebration",

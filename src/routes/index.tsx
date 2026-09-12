@@ -61,7 +61,7 @@ function Invitation() {
         <Reveal>
           <div className="text-center">
             <span className="inline-flex items-center gap-1.5 text-[0.62rem] uppercase tracking-airy text-primary/90 font-medium">
-              <Clock className="w-3 h-3 inline" /> Counting down to the Muhurtham
+              <Clock className="w-3 h-3 inline" /> Days to Engagement
             </span>
             <div className="mt-5 w-full">
               <Countdown iso={couple.weddingISO} />
@@ -233,7 +233,7 @@ function Invitation() {
               Thursday, 17 September 2026
             </p>
             <p className="mt-1 text-xs text-muted-foreground max-w-xs mx-auto">
-              Add the engagement muhurtham & celebration directly to your Apple or Google Calendar.
+              Add the engagement ceremony & celebration directly to your Apple or Google Calendar.
             </p>
             <button
               type="button"
